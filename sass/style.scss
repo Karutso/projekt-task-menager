@@ -1,0 +1,39 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+        display: inline;
+        padding: 0 2px;
+    }
+}
+body {
+    background-image: url(https://i.imgur.com/lwrt0M7.png)
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+}
+
+.splash {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h1, h2, {
+        color: white;
+    }
+}
