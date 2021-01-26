@@ -45,6 +45,18 @@ ul {
    
 }
 
+.btn {
+    color: white;
+    width: 240px;
+    height: 65px;
+    border: none;
+    background-color: #fed136;
+    padding: 14px 28px;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 700;
+  }
+
 .section {
     padding: 96px 0;
 }
@@ -54,4 +66,20 @@ ul {
 
 .page-subtitle {
 
+}
+.p-img {
+
+    width: 290px;
+    height: 300px;
+    object-fit: cover;
+}
+.p-bk {
+    margin: 0 5px 10px 0;
+    background-color: white;
+    max-width: 290px;
+}
+.container:last-of-type {
+    height: 1000px;
+    background-color: #f7f7f7;
+    padding-top: 20px;
 }
