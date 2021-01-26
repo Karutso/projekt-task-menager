@@ -6,84 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="vendor/bootstrap-grid.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Signika:wght@300&display=swap" rel="stylesheet"> 
     <title>projekt-task-menager</title>
 </head>
 <body>
-  <header class="row">
-  <div class="col-4">
-    <div><button class="btn-nav"><img src="https://i.imgur.com/iwfUTTW.png"></button></div>
+  <div class="container background">
+    <header class="row">
+      <div class="col-4">
+        <div><button class="btn-nav"><img src="../images/logo.png"></button></div>
+      </div>
+      <div class="col-8">
+          <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="splash-inn">
+          <h1 class="page-subtitle">Welcome To Our Site</h1>
+          <h2 class="page-title"> Its nice to meet you</h2>
+          <button class="btn">TELL ME MORE</button>
+        </div>
+      </div>
+    </header>
   </div>
-  <div class="col-8">
-    <ul class="nav">
-      <li><button class="btn-nav" href="#"><img src="https://i.imgur.com/4yZYQmk.png"></button></li>
-      <li><button class="btn-nav" href="#"><img src="https://i.imgur.com/jPFuphm.png"></button></li>
-      <li><button class="btn-nav" href="#"><img src="https://i.imgur.com/pM3YlA3.png"></button></li>
-      <li><button class="btn-nav" href="#"><img src="https://i.imgur.com/7fwIMmZ.png"></button></li>
-      <li><button class="btn-nav" href="#"><img src="https://i.imgur.com/gVJGSUX.png"></button></li>
-    </ul>
- </div>
- <div class="splash-inn">
-      <h1 class="page-title">Welcome To Our Site</h1>
-      <h2 class="page-subtitle"> Its nice to meet you</h2>
-      <button class="btn">TELL ME MORE</button>
-    </div>
- </header>
   <section class="container">
-      <h1 class="page-title">Services</h1>
+    <h1 class="page-title">Services</h1>
+    <p class="page-subtitle">Lorem ipsum dolor sit amet.</p>
+    <div class="row">
+      <div class="col-4">
+        <img src="../images/koszyk.png" alt="">
+        <h3 class="page-title">E-Commerce</h3>
+        <p class="page-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo placerat mattis.</p>
+      </div>
+      <div class="col-4">
+        <img src="../images/laptop.png" alt="">
+        <h3 class="page-title">Responsive</h3>
+        <p class="page-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo placerat mattis.</p>
+      </div>
+      <div class="col-4">
+        <img src="../images/lock.png" alt="">
+        <h3 class="page-title">Web Security</h3>
+        <p class="page-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo placerat mattis.</p>
+      </div>
+   </div>
+  </section>
+  <div class="gray-bg">
+    <section class="container">
+      <h3 class="page-title">OUR PORTFOLIO</h3>
       <p>Lorem ipsum dolor sit amet.</p>
       <div class="row">
-      <div class="col-4">
-        <img src="https://i.imgur.com/R2WrOUQ.png" alt="">
-        <h3>E-Commerce</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo placerat mattis.</p>
+        <div class="col-4">
+          <div class="p-bg">
+            <img class="p-img" src="../images/ebony.png" alt="">
+            <h4>Ebony and ivory</h4>
+            <p>Branding</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="p-bg">
+            <img class="p-img" src="../images/smart.png" alt="">
+            <h4 class="page-title">Smart Stationary</h4>
+            <p>Print design</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="p-bg">
+            <img class="p-img" src="../images/clever.png" alt="">
+            <h4 class="page-title">Clever poster</h4>
+            <p>Print design</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="p-bg">
+            <img class="p-img" src="../images/smart.png" alt="">
+            <h4 class="page-title">Vinyl Record</h4>
+            <p>Product mock-Up</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="p-bg">
+            <img class="p-img" src="../images/treehause.png" alt="">
+            <h4 class="page-title">Treehouse Template</h4>
+            <p>Web design</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="p-bg">
+            <img class="p-img" src="../images/burned_logo.png" alt="">
+            <h4 class="page-title">Burned Logo</h4>
+            <p>Branding</p>
+          </div>
+        </div>
       </div>
-      <div class="col-4">
-        <img src="https://i.imgur.com/X9pqOcK.png" alt="">
-        <h3>Responsive</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo placerat mattis.</p>
-      </div>
-      <div class="col-4">
-        <img src="https://i.imgur.com/AaZioq6.png" alt="">
-        <h3>Web Security</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo placerat mattis.</p>
-    </div>
-     </div>
   </section>
-  <section class="container p-bg"> 
-    <H3>OUR PORTFOLIO</H3>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <div class="row">
-      <div class="col-4 p-bk">
-        <img class="p-img" src="https://i.imgur.com/Cl6u3lP.png" alt="">
-        <h4>Ebony and ivory</h4>
-        <p>Branding</p>
-      </div>
-      <div class="col-4 p-bk">
-        <img class="p-img" src="https://i.imgur.com/znXGFvo.png" alt="">
-        <h4>Smart Stationary</h4>
-        <p>Print design</p>
-      </div>
-      <div class="col-4 p-bk">
-        <img class="p-img" src="https://i.imgur.com/jEku3cW.png" alt="">
-        <h4>Clever poster</h4>
-        <p>Print design</p>
-      </div>
-      <div class="col-4 p-bk">
-        <img class="p-img" src="https://i.imgur.com/mju85am.png" alt="">
-        <h4>Vinyl Record</h4>
-        <p>Product mock-Up</p>
-      </div>
-      <div class="col-4 p-bk">
-        <img class="p-img" src="https://i.imgur.com/ZVa3Z4U.png" alt="">
-        <h4>Treehouse Template</h4>
-        <p>Web design</p>
-      </div>
-      <div class="col-4 p-bk">
-        <img class="p-img" src="https://i.imgur.com/495Dl1I.png" alt="">
-        <h4>Burned Logo</h4>
-        <p>Branding</p>
-      </div>
-    </div>
-  </section>
+</div>
 </body>
 </html>
