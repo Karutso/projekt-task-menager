@@ -3,11 +3,13 @@ $font-one: 'Montserrat', sans-serif;
 $font-two:'Signika', sans-serif;
 $text-color: white;
 body {  
-    margin: 0;    
+     
     line-height: 1.7;
     text-align: center;
     
 }
+
+
 
 .background {
     background-image: url(../images/background.png);
@@ -56,7 +58,7 @@ ul {
     background-color: #fed136;
     padding: 14px 28px;
     font-size: 16px;
-    display: inline-block;
+    
     font-weight: 700;
   }
 
@@ -71,6 +73,7 @@ ul {
 .page-subtitle {
     font-family: $font-two;
     font-size: 16px;
+    
 }
 .p-img {
 
@@ -86,4 +89,33 @@ ul {
 .gray-bg {
     background-color: #f7f7f7;
     height: 1050px;
+}
+footer {
+    display: flex;
+}
+
+footer  i {
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    background: black;
+    padding: 5px 5px;  
+}    
+.icon  {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s;
+    line-height: 1.2;
+
+    }
+
+@media (max-width: 576px) {
+    .row {
+        display: inline-block;
+    }
+
+    .gray-bg {
+        height: 2850px;
+    }
 }

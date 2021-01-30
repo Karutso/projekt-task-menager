@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   line-height: 1.7;
   text-align: center;
 }
@@ -53,7 +52,6 @@ ul li a {
   background-color: #fed136;
   padding: 14px 28px;
   font-size: 16px;
-  display: inline-block;
   font-weight: 700;
 }
 
@@ -86,6 +84,35 @@ ul li a {
 .gray-bg {
   background-color: #f7f7f7;
   height: 1050px;
+}
+
+footer {
+  display: flex;
+}
+
+footer i {
+  color: white;
+  font-size: 15px;
+  border-radius: 30px;
+  background: black;
+  padding: 5px 5px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  transition: 0.5s;
+  line-height: 1.2;
+}
+
+@media (max-width: 576px) {
+  .row {
+    display: inline-block;
+  }
+  .gray-bg {
+    height: 2850px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
